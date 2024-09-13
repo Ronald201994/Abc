@@ -1,0 +1,40 @@
+<div class="sidenav" [ngClass]="collapsed ? 'sidenav-collapsed' : ''">
+    <div class="logo-container">
+      <a href="javascript:void(0)" class="logo"  (click)="toggleCollapse()"><img src="./assets/images/logo.svg" alt="logo"></a>
+      <div class="logo-text" @fadeInOut *ngIf="collapsed">AORA SOLUCIÓN</div>
+      <!-- <a class="btn-close" @rotate *ngIf="collapsed" (click)="closeSidenav()">
+        <i class="material-icons">close</i>
+      </a> -->
+      <a class="btn-close" *ngIf="collapsed" (click)="closeSidenav()">
+        <i class="material-icons">menu</i>
+      </a>
+    </div>
+    <!-- <div class="avatarcontainer" [ngClass]="collapsed ? 'avatarcontainer-collapsed':''">
+      <div class="avatarcontent">
+        <img src="./assets/images/user.png" alt="Imagen de usuario">
+      </div>
+      <div class="avatarinfo" @fadeInOut *ngIf="collapsed">
+        <div class="fullname">{{usuarioLogueado.objeto.vNombres}} {{usuarioLogueado.objeto.vApellidos}}</div>
+        <div class="email">{{usuarioLogueado.objeto.vCorreo}}</div>
+      </div>
+    </div> -->
+    <div class="scrollwrap scrollwrap_deplayed" [ngClass]="collapsed ? 'scrollwrap-collapsed' : ''">
+      <ul class="sidenav-nav">
+        <li class="sidenav-nav-item" *ngFor="let link of navData">
+          <a class="sidenav-nav-link" (click)="handleClick(link)" *ngIf="link.hijos && link.hijos.length > 0" [ngClass]="getActiveClass(link)">
+            <i class="sidenav-link-icon material-icons material-symbols-outlined" [matTooltip]="link.vNomMenu" matTooltipPosition="right">{{link.vRutIcon}}</i>
+            <span class="sidenav-link-text" @fadeInOut *ngIf="collapsed">{{link.vNomMenu}}</span>
+            <i *ngIf="link.hijos && collapsed" class="menu-collapse-icon material-icons" ngClass="{{!link.bExpandir ? '' : 'menu-collapse-icon-expand'}}">chevron_right</i>
+          </a>
+          <a class="sidenav-nav-link" *ngIf="!link.hijos || (link.hijos && link.hijos.length === 0)" [routerLink]="[link.vUrlMenu]" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" (click)="shrinkItems(link)">
+            <i class="sidenav-link-icon material-icons material-symbols-outlined" [matTooltip]="link.vNomMenu" matTooltipPosition="right">{{link.vRutIcon}}</i>
+            <span class="sidenav-link-text" @fadeInOut *ngIf="collapsed">{{link.vNomMenu}}</span>
+          </a>  
+        </li>
+      </ul>
+    </div>
+    <div class="sidenav-footer" @fadeInOut *ngIf="collapsed">
+      <img src="./assets/images/logoqualis_blanco.png" alt="logo">
+    </div>
+  </div>
+  

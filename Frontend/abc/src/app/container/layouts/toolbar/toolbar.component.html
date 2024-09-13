@@ -1,0 +1,108 @@
+<mat-toolbar class="head" [ngClass]="getHeadClass()">
+    <div class="head-content">
+        <div class="head-content-left">
+            <!-- <div class="search-container">
+                <div *ngIf="!canShowSearchAsOverlay" class="normal-search">
+                    <input type="search" class="search" name="" id="" placeholder="Buscar...">
+                    <i class="search-icon material-icons">search</i>
+                </div>
+                <div [ngStyle]="{'display': !canShowSearchAsOverlay ? 'none' : 'block'}">
+                    <button cdkOverlayOrigin #triggerSearch="cdkOverlayOrigin" (click)="isOpenSearch = !isOpenSearch" class="search-menu-btn ripple">
+                        <i class="search-icon material-icons">search</i>
+                    </button>
+                </div>
+            </div> -->
+        </div>
+        <div class="head-content-right">
+            <div class="head-menu">
+                <!-- <div class="head-menu-item">
+                    <button cdkOverlayOrigin #triggerLanguage="cdkOverlayOrigin" class="head-menu-item-btn ripple" (click)="isOpenLanguage = !isOpenLanguage" >
+                        <img [src]="'./assets/images/'+selectedLanguage.flag+'.png'" alt="flag" class="flag">
+                    </button>
+                </div>
+                <div class="head-menu-item">
+                    <button class="head-menu-item-btn ripple">
+                        <i class="menu-icon material-icons">expand</i>
+                    </button>
+                </div>
+                <div class="head-menu-item">
+                    <button cdkOverlayOrigin #triggerNotification="cdkOverlayOrigin" class="head-menu-item-btn ripple" (click)="isOpenNotification = !isOpenNotification">
+                        <i class="menu-icon material-icons">notifications</i>
+                    </button>
+                </div>
+                <div class="head-menu-item">
+                    <button class="head-menu-item-btn ripple">
+                        <i class="menu-icon material-icons">forum</i>
+                    </button>
+                </div> -->
+            </div>
+            <div class="head-info-avatarcontainer">
+                <span class="avatar-name">{{usuarioLogueado.Nombre}}</span>
+                <!-- <span class="avatar-rol">{{usuarioLogueado.Nombre}}</span> -->
+            </div>
+            
+        </div>
+    </div>
+</mat-toolbar>
+
+
+<!-- <ng-template 
+    cdkConnectedOverlay 
+    [cdkConnectedOverlayOrigin]="triggerSearch" 
+    [cdkConnectedOverlayOpen]="isOpenSearch"
+    (overlayOutsideClick)="isOpenSearch = false">
+    <div class="overlay overlay-search overlay-fall">
+        <input type="search" class="search" name="" id="" placeholder="Buscar...">
+        <button class="search-btn">
+            <i class="search-icon material-icons">search</i>
+        </button>
+    </div>
+    <div class="overlay overlay-search overlay-fall">
+        <input type="search" class="search" name="" id="" placeholder="Search...">
+        <button class="search-btn">
+            <i class="search-icon material-icons">search</i>
+        </button>
+    </div>
+</ng-template> -->
+<!-- 
+<ng-template 
+    cdkConnectedOverlay 
+    [cdkConnectedOverlayOrigin]="triggerLanguage"  
+    [cdkConnectedOverlayOpen]="isOpenLanguage"
+    (overlayOutsideClick)="isOpenLanguage = false">
+    <div class="overlay overlay-language overlay-fall">
+        <ul>
+            <li *ngFor="let lang of languages" (click)="isOpenLanguage = false; selectedLanguage = lang" >
+                <img [src]="'./assets/images/'+lang.flag+'.png'" [alt]="lang.language">
+                <span>{{lang.language}}</span>
+            </li>
+        </ul>
+    </div>
+</ng-template>
+
+<ng-template 
+    cdkConnectedOverlay 
+    [cdkConnectedOverlayOrigin]="triggerNotification"  
+    [cdkConnectedOverlayOpen]="isOpenNotification"
+    (overlayOutsideClick)="isOpenNotification = false">
+    <div class="overlay overlay-notification overlay-fall">
+        <ul>
+            <li class="notification-head-container">
+                <div class="notification-head">Notificaciones</div>
+                <span class="view-all-link">
+                    <a (click)="isOpenNotification = false">Ver todos</a>
+                </span>
+            </li>
+            <li class="notification-message-container" *ngFor="let notification of notifications" (click)="isOpenNotification = false">
+                <i class="material-icons">{{notification.icon}}</i>
+                <div>
+                    <div class="notification-subject">
+                        {{notification.subject}}
+                    </div>
+                    <p class="notification-desc">{{notification.description}}</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</ng-template> -->
+

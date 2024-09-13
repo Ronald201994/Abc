@@ -1,0 +1,14 @@
+<div class="body" [ngClass]="getBodyClass()">
+    <!-- <div class="content-breadcrumb mr">
+        <i class="material-icons mr-1">explore</i>
+        <breadcrumb #parent>
+            <span class="breadcrumb" *ngFor="let route of parent.breadcrumbs; let i = index">
+                <a mat-button [disableRipple]="true" *ngIf="!route.terminal" href="">{{ route.displayName }} <i class="material-icons">chevron_right</i></a>
+                <a mat-button [disableRipple]="true" *ngIf="route.terminal" [routerLink]="[route.url]">{{ route.displayName }} <i *ngIf="i+1 < parent.breadcrumbs.length" class="material-icons">chevron_right</i></a>
+            </span>
+        </breadcrumb>
+    </div> -->
+    <div style="padding-bottom: .5rem;">
+        <router-outlet></router-outlet>
+    </div>
+</div>

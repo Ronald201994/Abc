@@ -1,0 +1,462 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{255FC895-9FC5-4107-B711-B5D401A54FB3}|Abc.Api\\Abc.Api.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.api\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255FC895-9FC5-4107-B711-B5D401A54FB3}|Abc.Api\\Abc.Api.csproj|solutionrelative:abc.api\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.application\\features\\empleados\\commands\\crear\\crearempleadocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|solutionrelative:abc.application\\features\\empleados\\commands\\crear\\crearempleadocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.application\\features\\empleados\\commands\\crear\\crearempleadocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|solutionrelative:abc.application\\features\\empleados\\commands\\crear\\crearempleadocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.application\\contracts\\persistence\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|solutionrelative:abc.application\\contracts\\persistence\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1965CDBC-C77E-4B16-A816-2C0BCA2CD91A}|Abc.Infrastructure\\Abc.Infrastructure.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1965CDBC-C77E-4B16-A816-2C0BCA2CD91A}|Abc.Infrastructure\\Abc.Infrastructure.csproj|solutionrelative:abc.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|solutionrelative:abc.application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.application\\dtos\\empleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|solutionrelative:abc.application\\dtos\\empleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.application\\contracts\\persistence\\iempleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|solutionrelative:abc.application\\contracts\\persistence\\iempleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.application\\contracts\\persistence\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|solutionrelative:abc.application\\contracts\\persistence\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|solutionrelative:abc.application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1965CDBC-C77E-4B16-A816-2C0BCA2CD91A}|Abc.Infrastructure\\Abc.Infrastructure.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.infrastructure\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1965CDBC-C77E-4B16-A816-2C0BCA2CD91A}|Abc.Infrastructure\\Abc.Infrastructure.csproj|solutionrelative:abc.infrastructure\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1965CDBC-C77E-4B16-A816-2C0BCA2CD91A}|Abc.Infrastructure\\Abc.Infrastructure.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.infrastructure\\repositories\\empleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1965CDBC-C77E-4B16-A816-2C0BCA2CD91A}|Abc.Infrastructure\\Abc.Infrastructure.csproj|solutionrelative:abc.infrastructure\\repositories\\empleadorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1965CDBC-C77E-4B16-A816-2C0BCA2CD91A}|Abc.Infrastructure\\Abc.Infrastructure.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1965CDBC-C77E-4B16-A816-2C0BCA2CD91A}|Abc.Infrastructure\\Abc.Infrastructure.csproj|solutionrelative:abc.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1965CDBC-C77E-4B16-A816-2C0BCA2CD91A}|Abc.Infrastructure\\Abc.Infrastructure.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.infrastructure\\persistence\\abccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1965CDBC-C77E-4B16-A816-2C0BCA2CD91A}|Abc.Infrastructure\\Abc.Infrastructure.csproj|solutionrelative:abc.infrastructure\\persistence\\abccontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55569069-5B12-4BA7-9865-C3A23E684136}|Abc.Domain\\Abc.Domain.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55569069-5B12-4BA7-9865-C3A23E684136}|Abc.Domain\\Abc.Domain.csproj|solutionrelative:abc.domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55569069-5B12-4BA7-9865-C3A23E684136}|Abc.Domain\\Abc.Domain.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55569069-5B12-4BA7-9865-C3A23E684136}|Abc.Domain\\Abc.Domain.csproj|solutionrelative:abc.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55569069-5B12-4BA7-9865-C3A23E684136}|Abc.Domain\\Abc.Domain.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.domain\\entities\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55569069-5B12-4BA7-9865-C3A23E684136}|Abc.Domain\\Abc.Domain.csproj|solutionrelative:abc.domain\\entities\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55569069-5B12-4BA7-9865-C3A23E684136}|Abc.Domain\\Abc.Domain.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.domain\\entities\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55569069-5B12-4BA7-9865-C3A23E684136}|Abc.Domain\\Abc.Domain.csproj|solutionrelative:abc.domain\\entities\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55569069-5B12-4BA7-9865-C3A23E684136}|Abc.Domain\\Abc.Domain.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.domain\\entities\\afp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55569069-5B12-4BA7-9865-C3A23E684136}|Abc.Domain\\Abc.Domain.csproj|solutionrelative:abc.domain\\entities\\afp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55569069-5B12-4BA7-9865-C3A23E684136}|Abc.Domain\\Abc.Domain.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.domain\\common\\basedomainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55569069-5B12-4BA7-9865-C3A23E684136}|Abc.Domain\\Abc.Domain.csproj|solutionrelative:abc.domain\\common\\basedomainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.application\\features\\empleados\\queries\\obtener\\obtenerempleadolistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|solutionrelative:abc.application\\features\\empleados\\queries\\obtener\\obtenerempleadolistqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.application\\features\\empleados\\queries\\obtener\\obtenerempleadolistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|solutionrelative:abc.application\\features\\empleados\\queries\\obtener\\obtenerempleadolistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255FC895-9FC5-4107-B711-B5D401A54FB3}|Abc.Api\\Abc.Api.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255FC895-9FC5-4107-B711-B5D401A54FB3}|Abc.Api\\Abc.Api.csproj|solutionrelative:abc.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255FC895-9FC5-4107-B711-B5D401A54FB3}|Abc.Api\\Abc.Api.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255FC895-9FC5-4107-B711-B5D401A54FB3}|Abc.Api\\Abc.Api.csproj|solutionrelative:abc.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255FC895-9FC5-4107-B711-B5D401A54FB3}|Abc.Api\\Abc.Api.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{255FC895-9FC5-4107-B711-B5D401A54FB3}|Abc.Api\\Abc.Api.csproj|solutionrelative:abc.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|c:\\ronald\\practica\\abc\\backend\\abc\\abc.application\\abc.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7AC7A1C9-DAE7-4D2A-96F7-C30E8AF48D1E}|Abc.Application\\Abc.Application.csproj|solutionrelative:abc.application\\abc.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEmpleadoRepository.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Contracts\\Persistence\\IEmpleadoRepository.cs",
+              "RelativeDocumentMoniker": "Abc.Application\\Contracts\\Persistence\\IEmpleadoRepository.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Contracts\\Persistence\\IEmpleadoRepository.cs",
+              "RelativeToolTip": "Abc.Application\\Contracts\\Persistence\\IEmpleadoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:11:55.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Contracts\\Persistence\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Abc.Application\\Contracts\\Persistence\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Contracts\\Persistence\\IUnitOfWork.cs",
+              "RelativeToolTip": "Abc.Application\\Contracts\\Persistence\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:12:07.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmpleadoDto.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Dtos\\EmpleadoDto.cs",
+              "RelativeDocumentMoniker": "Abc.Application\\Dtos\\EmpleadoDto.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Dtos\\EmpleadoDto.cs",
+              "RelativeToolTip": "Abc.Application\\Dtos\\EmpleadoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:37:01.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Abc.Application\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "Abc.Application\\Mappings\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:40:22.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CrearEmpleadoCommand.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Features\\Empleados\\Commands\\Crear\\CrearEmpleadoCommand.cs",
+              "RelativeDocumentMoniker": "Abc.Application\\Features\\Empleados\\Commands\\Crear\\CrearEmpleadoCommand.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Features\\Empleados\\Commands\\Crear\\CrearEmpleadoCommand.cs",
+              "RelativeToolTip": "Abc.Application\\Features\\Empleados\\Commands\\Crear\\CrearEmpleadoCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:28:16.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CrearEmpleadoCommandHandler.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Features\\Empleados\\Commands\\Crear\\CrearEmpleadoCommandHandler.cs",
+              "RelativeDocumentMoniker": "Abc.Application\\Features\\Empleados\\Commands\\Crear\\CrearEmpleadoCommandHandler.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Features\\Empleados\\Commands\\Crear\\CrearEmpleadoCommandHandler.cs",
+              "RelativeToolTip": "Abc.Application\\Features\\Empleados\\Commands\\Crear\\CrearEmpleadoCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:28:25.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Abc.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Abc.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:19:44.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmpleadosController.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Api\\Controllers\\EmpleadosController.cs",
+              "RelativeDocumentMoniker": "Abc.Api\\Controllers\\EmpleadosController.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Api\\Controllers\\EmpleadosController.cs",
+              "RelativeToolTip": "Abc.Api\\Controllers\\EmpleadosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:42:14.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Contracts\\Persistence\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "Abc.Application\\Contracts\\Persistence\\IBaseRepository.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Contracts\\Persistence\\IBaseRepository.cs",
+              "RelativeToolTip": "Abc.Application\\Contracts\\Persistence\\IBaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:11:37.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\ApplicationServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Abc.Application\\ApplicationServiceRegistration.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\ApplicationServiceRegistration.cs",
+              "RelativeToolTip": "Abc.Application\\ApplicationServiceRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:25:45.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InfrastructureServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Infrastructure\\InfrastructureServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Abc.Infrastructure\\InfrastructureServiceRegistration.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Infrastructure\\InfrastructureServiceRegistration.cs",
+              "RelativeToolTip": "Abc.Infrastructure\\InfrastructureServiceRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:24:40.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmpleadoRepository.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Infrastructure\\Repositories\\EmpleadoRepository.cs",
+              "RelativeDocumentMoniker": "Abc.Infrastructure\\Repositories\\EmpleadoRepository.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Infrastructure\\Repositories\\EmpleadoRepository.cs",
+              "RelativeToolTip": "Abc.Infrastructure\\Repositories\\EmpleadoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:19:34.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Abc.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "Abc.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:19:24.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AbcContext.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Infrastructure\\Persistence\\AbcContext.cs",
+              "RelativeDocumentMoniker": "Abc.Infrastructure\\Persistence\\AbcContext.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Infrastructure\\Persistence\\AbcContext.cs",
+              "RelativeToolTip": "Abc.Infrastructure\\Persistence\\AbcContext.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAYwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T20:12:00.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Domain\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "Abc.Domain\\Entities\\Usuario.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Domain\\Entities\\Usuario.cs",
+              "RelativeToolTip": "Abc.Domain\\Entities\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:16:02.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Domain\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "Abc.Domain\\Entities\\Role.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Domain\\Entities\\Role.cs",
+              "RelativeToolTip": "Abc.Domain\\Entities\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:15:59.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Domain\\Entities\\Empleado.cs",
+              "RelativeDocumentMoniker": "Abc.Domain\\Entities\\Empleado.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Domain\\Entities\\Empleado.cs",
+              "RelativeToolTip": "Abc.Domain\\Entities\\Empleado.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:14:22.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Cargo.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Domain\\Entities\\Cargo.cs",
+              "RelativeDocumentMoniker": "Abc.Domain\\Entities\\Cargo.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Domain\\Entities\\Cargo.cs",
+              "RelativeToolTip": "Abc.Domain\\Entities\\Cargo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:15:56.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Afp.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Domain\\Entities\\Afp.cs",
+              "RelativeDocumentMoniker": "Abc.Domain\\Entities\\Afp.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Domain\\Entities\\Afp.cs",
+              "RelativeToolTip": "Abc.Domain\\Entities\\Afp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:15:53.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseDomainModel.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Domain\\Common\\BaseDomainModel.cs",
+              "RelativeDocumentMoniker": "Abc.Domain\\Common\\BaseDomainModel.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Domain\\Common\\BaseDomainModel.cs",
+              "RelativeToolTip": "Abc.Domain\\Common\\BaseDomainModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:52:59.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ObtenerEmpleadoListQueryHandler.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Features\\Empleados\\Queries\\Obtener\\ObtenerEmpleadoListQueryHandler.cs",
+              "RelativeDocumentMoniker": "Abc.Application\\Features\\Empleados\\Queries\\Obtener\\ObtenerEmpleadoListQueryHandler.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Features\\Empleados\\Queries\\Obtener\\ObtenerEmpleadoListQueryHandler.cs",
+              "RelativeToolTip": "Abc.Application\\Features\\Empleados\\Queries\\Obtener\\ObtenerEmpleadoListQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:35:19.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ObtenerEmpleadoListQuery.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Features\\Empleados\\Queries\\Obtener\\ObtenerEmpleadoListQuery.cs",
+              "RelativeDocumentMoniker": "Abc.Application\\Features\\Empleados\\Queries\\Obtener\\ObtenerEmpleadoListQuery.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Features\\Empleados\\Queries\\Obtener\\ObtenerEmpleadoListQuery.cs",
+              "RelativeToolTip": "Abc.Application\\Features\\Empleados\\Queries\\Obtener\\ObtenerEmpleadoListQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:35:06.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Abc.Api\\appsettings.json",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Api\\appsettings.json",
+              "RelativeToolTip": "Abc.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-13T17:44:49.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Api\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Abc.Api\\WeatherForecast.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Api\\WeatherForecast.cs",
+              "RelativeToolTip": "Abc.Api\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:45:06.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Abc.Api\\Program.cs",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Api\\Program.cs",
+              "RelativeToolTip": "Abc.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T17:45:07.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Abc.Application",
+              "DocumentMoniker": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Abc.Application.csproj",
+              "RelativeDocumentMoniker": "Abc.Application\\Abc.Application.csproj",
+              "ToolTip": "C:\\Ronald\\Practica\\Abc\\Backend\\Abc\\Abc.Application\\Abc.Application.csproj",
+              "RelativeToolTip": "Abc.Application\\Abc.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-13T17:11:02.028Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
